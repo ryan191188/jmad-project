@@ -3,6 +3,7 @@ from django.urls import resolve
 
 from solos.views import index
 
+
 class SolosUrlsTestCase(TestCase):
 
     def test_root_url_uses_index_view(self):
